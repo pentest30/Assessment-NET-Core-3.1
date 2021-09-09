@@ -1,0 +1,4 @@
+﻿dotnet tool install --global dotnet-ef --version="3.1"
+
+dotnet ef migrations add Init --context ApplicationDbContext -o Migrations/ApplicationDb
+dotnet ef database update --context ApplicationDbContext

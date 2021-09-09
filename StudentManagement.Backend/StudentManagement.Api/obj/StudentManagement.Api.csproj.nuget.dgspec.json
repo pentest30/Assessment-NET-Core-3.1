@@ -1,0 +1,382 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Backend\\StudentManagement.Api\\StudentManagement.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Backend\\StudentManagement.Api\\StudentManagement.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Backend\\StudentManagement.Api\\StudentManagement.Api.csproj",
+        "projectName": "StudentManagement.Api",
+        "projectPath": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Backend\\StudentManagement.Api\\StudentManagement.Api.csproj",
+        "packagesPath": "C:\\Users\\iqbal.baouche\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Backend\\StudentManagement.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iqbal.baouche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Application\\StudentManagement.Application.csproj": {
+                "projectPath": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Application\\StudentManagement.Application.csproj"
+              },
+              "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Persistence\\StudentManagement.Persistence.csproj": {
+                "projectPath": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Persistence\\StudentManagement.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.2.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.18, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.18, )"
+            },
+            "SimpleSoft.Mediator.Microsoft.Extensions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "SimpleSoft.Mediator.Microsoft.Extensions.EFCoreTransactionPipeline": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "SimpleSoft.Mediator.Microsoft.Extensions.LoggingPipeline": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "SimpleSoft.Mediator.Microsoft.Extensions.ValidationPipeline": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.16, 3.1.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Application\\StudentManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Application\\StudentManagement.Application.csproj",
+        "projectName": "StudentManagement.Application",
+        "projectPath": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Application\\StudentManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\iqbal.baouche\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iqbal.baouche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Domaine\\StudentManagement.Domaine.csproj": {
+                "projectPath": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Domaine\\StudentManagement.Domaine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.2.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Domaine\\StudentManagement.Domaine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Domaine\\StudentManagement.Domaine.csproj",
+        "projectName": "StudentManagement.Domaine",
+        "projectPath": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Domaine\\StudentManagement.Domaine.csproj",
+        "packagesPath": "C:\\Users\\iqbal.baouche\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Domaine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iqbal.baouche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Persistence\\StudentManagement.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Persistence\\StudentManagement.Persistence.csproj",
+        "projectName": "StudentManagement.Persistence",
+        "projectPath": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Persistence\\StudentManagement.Persistence.csproj",
+        "packagesPath": "C:\\Users\\iqbal.baouche\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iqbal.baouche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Domaine\\StudentManagement.Domaine.csproj": {
+                "projectPath": "D:\\projects\\Assessement\\StudentManagement\\StudentManagement.Core\\StudentManagement.Domaine\\StudentManagement.Domaine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
