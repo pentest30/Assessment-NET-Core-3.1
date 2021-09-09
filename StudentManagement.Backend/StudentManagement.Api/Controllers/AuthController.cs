@@ -91,8 +91,8 @@ namespace StudentManagement.Api.Controllers
             if (!result.Succeeded) return BadRequest(result.Errors);
             _slim.Release();
             if (!string.IsNullOrEmpty(model.Role)) await _userManager.AddToRoleAsync(user, model.Role);
-            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-            await _userManager.ResetPasswordAsync(user, token, model.Password);
+            // var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            // await _userManager.ResetPasswordAsync(user, token, model.Password);
             return Created($"api/authentication/register/{user.Id}", new {userName = model.UserName});
 
         }
