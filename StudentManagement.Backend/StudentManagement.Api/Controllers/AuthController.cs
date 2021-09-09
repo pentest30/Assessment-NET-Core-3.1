@@ -88,7 +88,11 @@ namespace StudentManagement.Api.Controllers
             await _slim.WaitAsync();
             // saves the user
             var result = await _userManager.CreateAsync(user, model.Password);
-            if (!result.Succeeded) return BadRequest(result.Errors);
+            if (!result.Succeeded)
+            {
+                _slim.Release();
+                return BadRequest(result.Errors);
+            }
             _slim.Release();
             if (!string.IsNullOrEmpty(model.Role)) await _userManager.AddToRoleAsync(user, model.Role);
             // var token = await _userManager.GeneratePasswordResetTokenAsync(user);
